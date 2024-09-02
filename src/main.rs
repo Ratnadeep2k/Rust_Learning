@@ -28,5 +28,9 @@ fn main() {
      let  d = [1,2,3,4,5];
         println!("The first value is {}",d[0]);
 
+        // A set of same value;
+     let e  = [9;10]; //9 , 10 times 
+     println!("The Array is {:?}",e);
+
 
 }
