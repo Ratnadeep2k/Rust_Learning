@@ -19,9 +19,14 @@ fn main() {
      println!("The first value is {},and second value is {}",val_one,val_two);
 
      //destructre 
-
-     let(val_one,val_two,_) = b;
+     let c =(5,6,7);
+     let(val_one,val_two,_) = c; //ignore the last value ;
         println!("The first value is {},and second value is {}",val_one,val_two);
+
+        //Array 
+
+     let  d = [1,2,3,4,5];
+        println!("The first value is {}",d[0]);
 
 
 }
