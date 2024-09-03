@@ -69,7 +69,18 @@ fn main() {
       for w in 0 ..=9{ //{inclusive}
       println!("The value of w is{}",w);
       }
+   
 
+   //match 
+   //Mix of switch and if
+
+   let p =10 ;
+   match p {
+      1 => println!("One"),
+      2 => println!("Two"),
+      3 => println!("Three"),
+      _ => println!("Anything"),
+   }
 
 
 }
