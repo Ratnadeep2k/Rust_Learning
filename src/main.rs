@@ -40,5 +40,36 @@ fn main() {
       println!("You Lost");
      }
 
+     //loop
+
+     //multiply x till it is less than 5000]
+     let mut x= 3;
+     loop{
+      x = x * 2;
+      if x > 5000 {
+        break;
+      }
+      println!("The value of x is{}",x);
+     }
+     //while loop
+     let mut y =1;
+     while y<1000{
+      y = y * 2;
+      println!("The value of y is{}",y);
+     }
+
+     //for loop 
+
+     for z in 0 ..10{ //from 0 to 9 the right side is exclusive
+      println!("The value of z is{}",z);
+     }
+
+     // for loop extra use
+
+      for w in 0 ..=9{ //{inclusive}
+      println!("The value of w is{}",w);
+      }
+
+
 
 }
