@@ -32,5 +32,13 @@ fn main() {
      let e  = [9;10]; //9 , 10 times 
      println!("The Array is {:?}",e);
 
+     let num = 1;
+     if num ==1 {
+      println!("You Won {}",num);
+     }
+     else {
+      println!("You Lost");
+     }
+
 
 }
